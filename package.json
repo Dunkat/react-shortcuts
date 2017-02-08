@@ -18,7 +18,7 @@
     "mousetrap"
   ],
   "scripts": {
-    "prepublish": "babel src/ -d lib/",
+    "postinstall": "babel src/ -d lib/",
     "start": "webpack-dev-server --hot --progress --colors",
     "test": "mocha"
   },

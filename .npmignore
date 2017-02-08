@@ -7,5 +7,3 @@ test
 *.yml
 webpack.config.js
 coverage
-dist
-src
