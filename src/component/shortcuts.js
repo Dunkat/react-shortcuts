@@ -42,6 +42,8 @@ export default class extends React.Component {
   componentDidMount() {
     this._onUpdate()
 
+    console.log('shortcuts.js');
+
     if (this.props.name) {
       this.context.shortcuts.addUpdateListener(this._onUpdate)
     }
